@@ -14,6 +14,11 @@ let resumeData = {
           "name":"github",
           "url":"https://github.com/kamsi09",
           "className":"fa fa-github"
+        },
+        {
+          "name":"email",
+          "url":"mailto:sam.oduche@ttu.edu",
+          "className":"fa fa-email"
         }
       ],
     "aboutme":"I am currently a 4th year CS student at Texas Tech university pursuing my BS. I am starting my journey to becoming a Full Stack Software Engineer so I am currently diving into programming and scripting languages such as PHP, Python and C#.",
@@ -74,24 +79,28 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Resume",
+        "description":"A simple webpage designed and built in the Reactjs framework",
+        "imgurl":"images/portfolio/website.png",
+        "tools":"ReactJS Font-Awesome"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Coming Soon",
+        "description":"something",
+        "imgurl":"images/portfolio/coming-soon.png",
+        "tools":"Coming Soon"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Coming Soon",
+        "description":"Comiing Soon",  
+        "imgurl":"images/portfolio/coming-soon.png",
+        "tools":"Coming Soon"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Coming Soon",
+        "description":"Coming Soon",
+        "imgurl":"images/portfolio/coming-soon.png",
+        "tools":"Coming Soon"
       }
     ],
     "testimonials":[

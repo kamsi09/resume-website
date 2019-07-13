@@ -27,9 +27,7 @@ export default class About extends Component {
 
                   <h2>Contact Details</h2>
                   <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-                     <span>Email : <u>{resumeData.email}</u></span>
+                     <span>Email : <a href="mailto:sam.oduche@ttu.edu">{resumeData.email}</a></span>
                      <br></br>
        						   <span>
                      Location : {resumeData.address}
