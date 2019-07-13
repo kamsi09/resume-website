@@ -52,21 +52,24 @@ let resumeData = {
         "YearOfLeaving":"2018",
         "Achievements": [{
           "firstAchievement":"Worked in a back-end environment to develop an API and implement new REST services.",
-          "secondAchievement":"Worked in a back-end environment to develop an API and implement new REST services.",
+          "secondAchievement":"Improved unit test coverage, participated in innovation projects, created Selenium test scripts, and participated in Agile SCRUM team collaboration.",
           "thirdAchievement":"",
         }]
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"skills?",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"Java"
+      },
+      {
+        "skillname":"ReactJs"
+      },
+      {
+        "skillname":"Javascript"
       },
       {
         "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
       }
     ],
     "portfolio":[
