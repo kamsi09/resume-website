@@ -14,11 +14,6 @@ let resumeData = {
           "name":"github",
           "url":"https://github.com/kamsi09",
           "className":"fa fa-github"
-        },
-        {
-          "name":"email",
-          "url":"mailto:sam.oduche@ttu.edu",
-          "className":"fa fa-email"
         }
       ],
     "aboutme":"I am currently a 4th year CS student at Texas Tech university pursuing my BS. I am starting my journey to becoming a Full Stack Software Engineer so I am currently diving into programming and scripting languages such as PHP, Python and C#.",
