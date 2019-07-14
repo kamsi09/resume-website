@@ -58,6 +58,7 @@ let resumeData = {
       }
     ],
     "skillsDescription":"skills?",
+    "technicalSkills":"Java",
     "skills":[
       {
         "skillname":"Java"

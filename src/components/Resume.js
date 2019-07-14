@@ -58,6 +58,7 @@ export default  class Resume extends Component {
                           <li>
                           {item.Achievements[0].secondAchievement}
                           </li>
+                          <br/>
                        </div>
 
                     </div>
