@@ -98,7 +98,7 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Resume",
-        "description":"A simple webpage explicitly built using Reactjs and thee FontAwesome library",
+        "description":"A simple webpage explicitly built using Reactjs and the FontAwesome library",
         "imgurl":"images/portfolio/website.png",
         "tools":"Website Portfolio",
         "gitHubLink":"https://github.com/kamsi09/resume-website"
