@@ -1,6 +1,8 @@
 
 My Portfolio website using the ReactJS framework
 
+![Alt text](public/images/portfolio/website.PNG?raw=true "Optional Title")
+
 ## How to use
 1. Clone/Download the repo.
 2. Run  ``` npm install ```.
