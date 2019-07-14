@@ -22,7 +22,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage" : "http://kamsi09.github.io/resume-website",
+  "homepage" : "http://samoduche.com",
   "browserslist": [
     ">0.2%",
     "not dead",
