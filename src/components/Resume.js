@@ -58,6 +58,9 @@ export default  class Resume extends Component {
                           <li>
                           {item.Achievements[0].secondAchievement}
                           </li>
+                          <li>
+                          {item.Achievements[0].thirdAchievement}
+                          </li>
                           <br/>
                        </div>
 
@@ -78,10 +81,6 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
-
    				<div className="bars">
 
    				   <ul className="skills">
@@ -99,6 +98,10 @@ export default  class Resume extends Component {
    					</ul>
 
    				</div>
+
+            <p>
+              <strong><u>Learning:</u></strong>{resumeData.skillsDescription[0].learning}
+            </p>
 
    			</div>
 

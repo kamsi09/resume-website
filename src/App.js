@@ -6,20 +6,28 @@ import Portfolio from './components/Portfolio';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <Router>
-        <div className="App">
-          <Header resumeData={resumeData}/>
-          <About resumeData={resumeData}/>
-          <Resume resumeData={resumeData}/>
-          <Portfolio resumeData={resumeData}/>
-          <ContactUs resumeData={resumeData}/>
-          <Footer resumeData={resumeData}/>
-        </div>
-      </Router>
+      // <div>
+      // <img id="splash" src="images/icon.png" />
+      //   <div className="App"id="wrapper1" class="one-edge-shadow">
+      //   <Header resumeData={resumeData}/>
+      //   <About resumeData={resumeData}/>
+      //   <Resume resumeData={resumeData}/>
+      //   <Portfolio resumeData={resumeData}/>
+      //   <ContactUs resumeData={resumeData}/>
+      //   <Footer resumeData={resumeData}/>
+      // </div>
+      // </div>
+      <div className="App">
+        <Header resumeData={resumeData}/>
+        <About resumeData={resumeData}/>
+        <Resume resumeData={resumeData}/>
+        <Portfolio resumeData={resumeData}/>
+        <ContactUs resumeData={resumeData}/>
+        <Footer resumeData={resumeData}/>
+      </div>
     );
   }
 }

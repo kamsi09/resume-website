@@ -40,9 +40,9 @@ let resumeData = {
         "MonthOfLeaving":"May - August",
         "YearOfLeaving":"2019",
         "Achievements": [{
-          "firstAchievement":"Worked in a full-stack environment to develop a web application using a relational database with API integration alongside a UI developed in ReactJS and Redux",
+          "firstAchievement":"Worked as a full-stack engineer to develop a web application using a relational database with API integration coupled with an internal facing web application built using ReactJS and Redux framework",
           "secondAchievement":"Participated in innovation challenges and hackathons to modernize internal and external facing systems",
-          "thirdAchievement":"",
+          "thirdAchievement":"Collaborated with Digital Product Owners to redesign internal applications and implement new business changes",
         }]
       },
       {
@@ -51,34 +51,58 @@ let resumeData = {
         "MonthOfLeaving":"May - August",
         "YearOfLeaving":"2018",
         "Achievements": [{
-          "firstAchievement":"Worked in a back-end environment to develop an API and implement new REST services.",
+          "firstAchievement":"Worked in a back-end environment to develop an API and implement SOAP to REST conversion in legacy services",
           "secondAchievement":"Improved unit test coverage, participated in innovation projects, created Selenium test scripts, and participated in Agile SCRUM team collaboration.",
-          "thirdAchievement":"",
+          "thirdAchievement":"Participated in Agile SCRUM team collaboration.",
+        }]
+      },
+      {
+        "CompanyName":"Freelance Web Development",
+        "specialization":"Self Employed Local Startup",
+        "MonthOfLeaving":"2015 - ",
+        "YearOfLeaving":"Present",
+        "Achievements": [{
+          "firstAchievement":"Consulted with clients to outline website goals, illustrate wire frame, and site functionality.",
+          "secondAchievement":"Developed a user-friendly architecture by programming site navigation, social media links/widgets, and organizing site content into a logical catalog.",
+          "thirdAchievement":"Validated sites by testing JavaScript, Flash, CSS3, and HTML5 codes to ensuring cross-platform compatibility.",
         }]
       }
     ],
-    "skillsDescription":"skills?",
+    "skillsDescription":[
+      {
+        "proficient":" Java, C, Python, Javascript, HTML, (S)CSS, ",
+        "learning":" Reactjs, Redux, SpringBoot, REST"
+      }
+    ],
     "technicalSkills":"Java",
     "skills":[
       {
         "skillname":"Java"
       },
       {
-        "skillname":"ReactJs"
+        "skillname":"C"
       },
       {
         "skillname":"Javascript"
       },
       {
-        "skillname":"CSS"
+        "skillname":"Python"
+      },
+      {
+        "skillname":"HTML"
+      },
+      {
+        "skillname":"SASS"
       }
     ],
     "portfolio":[
       {
         "name":"Resume",
-        "description":"A simple webpage designed and built in the Reactjs framework",
+        "description":"A simple webpage explicitly built using Reactjs and thee FontAwesome library",
         "imgurl":"images/portfolio/website.png",
-        "tools":"ReactJS Font-Awesome"
+        "tools":"Website Portfolio",
+        "gitHubLink":"https://github.com/kamsi09/resume-website"
+        
       },
       {
         "name":"Coming Soon",
