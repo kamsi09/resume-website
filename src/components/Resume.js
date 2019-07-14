@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Pdf from '../resume.pdf';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -63,13 +64,17 @@ export default  class Resume extends Component {
                           </li>
                           <br/>
                        </div>
-
                     </div>
 
                   )
                 })
               }
+              <a style={{color:'#707070', fontFamily:'opensans-bold, sans-serif', fontSize: '17px'}}
+                href = {Pdf} target = "_blank">
+                <u>Resume (PDF)</u>
+              </a>
             </div> 
+            
          </div>
 
 
