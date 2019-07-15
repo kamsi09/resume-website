@@ -70,7 +70,7 @@ let resumeData = {
   "skillsDescription": [
     {
       "proficient": " Java, C, Python, Javascript, HTML, (S)CSS, ",
-      "learning": " Reactjs, Redux, SpringBoot, REST"
+      "learning": " Reactjs, Redux, SpringBoot, REST, PHP, Python"
     }
   ],
   "technicalSkills": "Java",
@@ -79,19 +79,10 @@ let resumeData = {
       "skillname": "Java"
     },
     {
-      "skillname": "C"
-    },
-    {
       "skillname": "Javascript"
     },
     {
-      "skillname": "Python"
-    },
-    {
       "skillname": "HTML"
-    },
-    {
-      "skillname": "SASS"
     }
   ],
   "portfolio": [
