@@ -9,18 +9,7 @@ import resumeData from './resumeData';
 class App extends Component {
   render() {
     return (
-      // <div>
-      // <img id="splash" src="images/icon.png" />
-      //   <div className="App"id="wrapper1" class="one-edge-shadow">
-      //   <Header resumeData={resumeData}/>
-      //   <About resumeData={resumeData}/>
-      //   <Resume resumeData={resumeData}/>
-      //   <Portfolio resumeData={resumeData}/>
-      //   <ContactUs resumeData={resumeData}/>
-      //   <Footer resumeData={resumeData}/>
-      // </div>
-      // </div>
-      <div className="App">
+      <div id="fade" className="App">
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
