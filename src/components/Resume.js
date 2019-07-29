@@ -89,10 +89,6 @@ export default class Resume extends Component {
             <div className="bars">
 
               <ul className="skills">
-                <li>
-                  <span className={`bar-expand c`}>
-                  </span><em>C/C++</em>
-                </li>
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return (

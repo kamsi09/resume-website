@@ -2,7 +2,7 @@ let resumeData = {
   "imagebaseurl": "https://sam.oduche.com",
   "name": "Sam Oduche",
   "linkedinId": "in/sam-oduche-279610153/",
-  "roleDescription": "I'm a software engineer based in Lubbock, TX specializing in building (and occasionally designing) exceptional, high-quality websites and applications.",
+  "roleDescription": "I'm a software engineer based in Lubbock, TX specializing in building and designing exceptional, high-quality websites and applications.",
   "socialLinks": [
     {
       "name": "linkedin",
