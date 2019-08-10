@@ -27,7 +27,7 @@ export default class Header extends Component {
                   <h2 style={{ color: '#fff', fontFamily: 'sans-serif ' }} className="responsive-headline">Hi, my name is</h2>
                   <h1 className="responsive-headline">{resumeData.name}.</h1>
                   <Typing.Delay ms={2000} />
-                  <Typing.Speed ms={1} />
+                  <Typing.Speed ms={3} />
                   <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>{resumeData.roleDescription}
                   </h3>
                 </span>
