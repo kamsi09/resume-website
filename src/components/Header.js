@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Pdf from '../resume.pdf';
+import Typing from 'react-typing-animation';
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -19,11 +19,19 @@ export default class Header extends Component {
           </nav>
 
           <div className="row banner">
-            <div className="banner-text">
-              <h2 style={{ color: '#fff', fontFamily: 'sans-serif ' }} className="responsive-headline">Hi, my name is</h2>
-              <h1 className="responsive-headline">{resumeData.name}.</h1>
-              <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>{resumeData.roleDescription}
-              </h3>
+         
+            <div className="banner-text"> 
+              <Typing>
+                <span>
+                <Typing.Delay ms={1000} />
+                  <h2 style={{ color: '#fff', fontFamily: 'sans-serif ' }} className="responsive-headline">Hi, my name is</h2>
+                  <h1 className="responsive-headline">{resumeData.name}.</h1>
+                  <Typing.Delay ms={2000} />
+                  <Typing.Speed ms={1} />
+                  <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>{resumeData.roleDescription}
+                  </h3>
+                </span>
+              </Typing>
               <hr />
               <ul className="social">
                 {

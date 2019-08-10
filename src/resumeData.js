@@ -69,8 +69,8 @@ let resumeData = {
   ],
   "skillsDescription": [
     {
-      "proficient": " Java, C, Python, Javascript, HTML, (S)CSS, ",
-      "learning": " Reactjs, Redux, SpringBoot, REST, PHP, Python"
+      "proficient": " Java, C, Python, Javascript, HTML, (S)CSS ",
+      "learning": " Python and Swift"
     }
   ],
   "technicalSkills": "Java",
@@ -83,44 +83,26 @@ let resumeData = {
     },
     {
       "skillname": "HTML"
+    },
+    {
+      "skillname": "ReactJS"
     }
   ],
   "portfolio": [
     {
       "name": "Resume",
-      "description": "A simple webpage explicitly built using only Reactjs and CSS",
+      "description": "A webpage explicitly built using only the Reactjs framework and CSS. The webpage was built with modularity in mind so it has a single data file that can be edited and is available on github. ",
       "imgurl": "images/portfolio/website.png",
       "tools": "Website Portfolio",
       "gitHubLink": "https://github.com/kamsi09/resume-website"
 
     },
     {
-      "name": "Coming Soon",
-      "description": "something",
+      "name": "Google Keep Clone",
+      "description": "A clone of Google's note-taking application with a frontend, backend and database",
       "imgurl": "images/portfolio/coming-soon.png",
-      "tools": "Coming Soon"
-    },
-    {
-      "name": "Coming Soon",
-      "description": "Comiing Soon",
-      "imgurl": "images/portfolio/coming-soon.png",
-      "tools": "Coming Soon"
-    },
-    {
-      "name": "Coming Soon",
-      "description": "Coming Soon",
-      "imgurl": "images/portfolio/coming-soon.png",
-      "tools": "Coming Soon"
-    }
-  ],
-  "testimonials": [
-    {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
-    },
-    {
-      "description": "This is a sample testimonial",
-      "name": "Some technical guy"
+      "tools": "ReactJS, NodeJS, mongoDB, Express",
+      "gitHubLink": "https://github.com/kamsi09/google-keep-clone"
     }
   ]
 }

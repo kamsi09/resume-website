@@ -351,7 +351,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: photoshop 2s ease;
 }
 .javascript {
-   width: 70%;
+   width: 85%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
@@ -361,7 +361,7 @@ ul#nav li.current a { color: #F06000; }
    -webkit-animation: photoshop 2s ease;
 }
 .reactjs {
-   width: 60%;
+   width: 90%;
    -moz-animation: photoshop 2s ease;
    -webkit-animation: photoshop 2s ease;
 }
