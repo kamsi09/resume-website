@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Pdf from '../resume.pdf';
 import Typing from 'react-typing-animation';
 export default class Header extends Component {
   render() {
@@ -15,6 +16,9 @@ export default class Header extends Component {
               <li><a className="smoothscroll" href="#resume">Resume</a></li>
               <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
               <li><a className="smoothscroll" href="#contact">Contact</a></li>
+              <li><a href={Pdf} target="_blank">
+                <u>Resume (PDF)</u>
+              </a></li>
             </ul>
           </nav>
 
